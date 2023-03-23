@@ -1,8 +1,6 @@
 name: Angular Pull Request
 on:
-  pull_request:
-    paths:
-      - 'src/**'
+  push
 
 jobs:
   ci:
